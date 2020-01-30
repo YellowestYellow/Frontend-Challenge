@@ -16,6 +16,8 @@ At Kick Interactive we build a number of sites from scratch. All our sites are d
 
 - Additional functionality like scrolling banners, hover states and button effects have been left to your imagination.
 
-- Feel free to add additional functionality to show what you can do. Remember Responsiveness is a must.
+- Feel free to add additional functionality to show what you can do. Remember Responsiveness is a must, and think about optimising images for the web.
 
-- Once complete, please upload your work either as a pr or as a public project on your profile and email to let us know.
+- Once complete, please upload your work either as a pull request or as a public project on your profile and email to let us know.
+
+Good Luck!
