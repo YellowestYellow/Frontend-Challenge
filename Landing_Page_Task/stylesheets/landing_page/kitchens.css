@@ -1,0 +1,42 @@
+.banner {
+  background-color: var(--colour-light-grey);
+  min-height: 360px;
+}
+
+.banner > h1 {
+  line-height: 360px;
+}
+
+#kitchens_banner {
+  grid-area: kitchens_banner;
+  background-image: url(../../resources/images/BannerImage_Kitchen.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#kitchens_content {
+  grid-area: kitchens_content;
+}
+
+.kitchen_group {
+  display: inline-flex;
+}
+
+.kitchen_groupee {
+  width: 32.5%;
+  display: inline-block;
+  min-width: 150px;
+  margin: 8px;
+}
+
+.kitchen_groupee > h3 {
+  margin: 8px;
+}
+
+.kitchen_groupee > img {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 150px;
+  width: 100%;
+}

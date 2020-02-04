@@ -1,0 +1,21 @@
+/* BRANDS */
+
+#brands_divider {
+  grid-area: brands_divider;
+}
+
+#brands_divider > ul > li {
+  display: inline-block;
+  height: 100%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#brands_divider > ul > li > img {
+max-width: 150px;
+min-height: 30px;
+height: 30px;
+max-height: 30px;
+opacity: 0.5;
+filter: alpha(opacity=5);
+}

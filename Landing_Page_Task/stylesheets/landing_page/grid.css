@@ -1,0 +1,93 @@
+/* GRID */
+
+#main_grid_wrapper {
+  background-color: var(--colour-light-grey);
+  grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+  grid-template-rows: 2fr 6fr 7fr 3fr 14fr 3fr 13fr 2fr;
+  grid-template-areas:
+    "flank_leftAA flank_leftAA header flank_rightAA flank_rightAA"
+    "kitchens_banner kitchens_banner kitchens_banner kitchens_banner kitchens_banner"
+    "flank_leftA flank_leftA kitchens_content flank_rightA flank_rightA"
+    "flank_leftB flank_leftB showrooms_divider flank_rightB flank_rightB"
+    "flank_leftC flank_leftC showrooms_content flank_rightC flank_rightC"
+    "flank_leftD flank_leftD brands_divider flank_rightD flank_rightD"
+    "flank_leftE flank_leftE fitting_content flank_rightE flank_rightE"
+    "flank_leftF footer footer footer flank_rightF"
+    ;
+}
+
+.grid_wrapper {
+    float: left;
+    min-height: 100vh;
+    width: calc(100vw - (100vw - 100%));
+    margin: 0px;
+    display: grid;
+    max-height: 3000px;
+  }
+
+.divider {
+  background-color: var(--colour-light-grey);
+}
+
+.content {
+  background-color: var(--colour-white);
+}
+
+/* FLANKING PANELS */
+
+#flank_leftAA {
+  grid-area: flank_leftAA;
+  position: relative;
+}
+
+#flank_rightAA {
+  grid-area: flank_rightAA;
+}
+
+#flank_leftA {
+  grid-area: flank_leftA;
+}
+
+#flank_rightA {
+  grid-area: flank_rightA;
+}
+
+#flank_leftB {
+  grid-area: flank_leftB;
+}
+
+#flank_rightB {
+  grid-area: flank_rightB;
+}
+
+#flank_leftC {
+  grid-area: flank_leftC;
+}
+
+#flank_rightC {
+  grid-area: flank_rightC;
+}
+
+#flank_leftD {
+  grid-area: flank_leftD;
+}
+
+#flank_rightD {
+  grid-area: flank_rightD;
+}
+
+#flank_leftE {
+  grid-area: flank_leftE;
+}
+
+#flank_rightE {
+  grid-area: flank_rightE;
+}
+
+#flank_leftF {
+  grid-area: flank_leftF;
+}
+
+#flank_rightF {
+  grid-area: flank_rightF;
+}

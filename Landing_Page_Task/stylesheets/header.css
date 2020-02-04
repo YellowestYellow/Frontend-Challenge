@@ -1,0 +1,27 @@
+/* HEADER */
+
+.header {
+  grid-area: header;
+  background-color: var(--colour-navy-blue);
+  color: var(--colour-white);
+}
+
+#header_logo {
+  height: 50px;
+  width: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.header > ul > a > li {
+  display: inline;
+  justify-content: space-around;
+  padding: 1%;
+  line-height: 120px;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: var(--colour-white);
+}

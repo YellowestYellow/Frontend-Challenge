@@ -1,0 +1,62 @@
+#showrooms_divider {
+  grid-area: showrooms_divider;
+  min-height: 150px;
+  position: relative;
+}
+
+#showrooms_content {
+  grid-area: showrooms_content;
+  overflow: hidden;
+}
+
+#showrooms_divider_container > h2, p {
+  min-height: 45px;
+}
+
+#showrooms_content_grid_wrapper {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "imgA imgB imgB"
+    "imgA imgB imgB"
+    "imgA imgB imgB"
+    "imgA imgD imgE"
+    "imgC imgD imgE"
+    "imgC imgD imgE"
+    "imgC imgD imgF"
+    "imgC imgD imgF"
+    "imgC imgD imgF"
+    ;
+}
+
+.showrooms_image {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+#imgA {
+  grid-area: imgA;
+}
+
+#imgB {
+  grid-area: imgB;
+}
+
+#imgC {
+  grid-area: imgC;
+}
+
+#imgD {
+  grid-area: imgD;
+}
+
+#imgE {
+  grid-area: imgE;
+}
+
+#imgF {
+  grid-area: imgF;
+}

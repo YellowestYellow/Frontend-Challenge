@@ -1,0 +1,41 @@
+/* ELEMENTS */
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: var(--colour-dark-grey);
+  image-rendering: auto;
+}
+
+body {
+  background-color: var(--colour-white);
+  overflow-y: scroll;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--colour-midnight-blue);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+h3 {
+  font-size: 1em;
+  text-transform: capitalize;
+}
+
+p {
+  font-size: 0.75em;
+  font-weight: 300;
+  color: var(--colour-dark-grey)
+}
